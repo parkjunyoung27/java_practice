@@ -10,6 +10,6 @@ public class lottoperson {
 		
 		lottoMake person2 = new lottoMake();
 		person2.lottoMachine(3);
-
+ 
 	}
 }
