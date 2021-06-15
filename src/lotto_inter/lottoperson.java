@@ -12,4 +12,4 @@ public class lottoperson {
 		person2.lottoMachine(3);
  
 	}
-}
+}  

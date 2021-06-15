@@ -13,7 +13,7 @@ public class lottoMake implements manual{
 	public void  push() {
 		while(lotto.size()<6) {
 			int num = (int)(Math.random()*45+1);
-			 lotto.add(num);
+			 lotto.add(num);  
 		}
 	}
 
