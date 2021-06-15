@@ -7,5 +7,5 @@ public interface manual {
 
 	void export(); // 숫자 출력하기
 } 
-
  
+  
