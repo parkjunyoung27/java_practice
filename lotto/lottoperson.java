@@ -4,7 +4,7 @@ public class lottoperson {
 	public static void main(String[] args) {
 		
 		lottoMake person1 = new lottoMake();
-		person1.lottoMachine(2); // ¿øÇÏ´Â Àå¼ö 
+		person1.lottoMachine(2); // Â¿Ã¸Ã‡ÃÂ´Ã‚ Ã€Ã¥Â¼Ã¶ 
 		
 		System.out.println("");
 		
