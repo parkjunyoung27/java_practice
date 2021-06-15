@@ -29,4 +29,4 @@ public class lottoMake implements manual{
 			export();
 		} 
 	} 
-}
+}///////////////////////
