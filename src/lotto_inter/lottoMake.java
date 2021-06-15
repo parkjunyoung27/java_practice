@@ -28,5 +28,5 @@ public class lottoMake implements manual{
 			push();
 			export();
 		} 
-	}
+	} 
 }
