@@ -17,16 +17,16 @@ public class MemberArrayList {
 	public boolean removeMember(int memberId) {
 		
 		for(int i=0; i<arrayList.size(); i++) {
-			Member member = arrayList.get(i); // member °ª 
+			Member member = arrayList.get(i); // member ê°’ 
 			
-			int tempId = member.getMemberId(); // ¸â¹öID
-			if(tempId == memberId) { //¸â¹ö°ªÀÌ ÀÔ·Â°ª°ú °°À¸¸é Á¦°Å 
+			int tempId = member.getMemberId(); // ë©¤ë²„ID
+			if(tempId == memberId) { //ë©¤ë²„ê°’ì´ ìž…ë ¥ê°’ê³¼ ê°™ìœ¼ë©´ ì œê±° 
 				arrayList.remove(i);
 				return true;
 			}
 		}
 		
-		System.out.println(memberId+"°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId+"ê°€ ì¡´ìž¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		return false;
 
 	}
