@@ -8,7 +8,7 @@ public class MyArrayTest {
 		array.addElement(20);
 		array.addElement(30);
 		array.insertElement(1, 50);
-		array.printAll(); // 0Àº Ãâ·Â¾ÈÇÔ
+		array.printAll(); // 0Å”ÅŸ Ä‚Ã¢Ë‡Ã‚Å¾ÄŒÃ‡Ã”
 		
 		System.out.println("===============");
 		array.removeElement(1);
