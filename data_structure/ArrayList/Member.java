@@ -2,8 +2,8 @@ package ch10;
 
 public class Member {
 	
-	private int memberId; //È¸¿ø ¾ÆÀÌµğ
-	private String memberName; // È¸¿ø ÀÌ¸§
+	private int memberId; //íšŒì› ì•„ì´ë””
+	private String memberName; // íšŒì› ì´ë¦„
 	
 	public Member(int memberId, String memberName) {
 		this.memberId = memberId;
@@ -27,8 +27,8 @@ public class Member {
 	}
 	
 	@Override
-	public String toString() { // toString ¸Ş¼Òµå ¿À¹ö¶óÀÌµå
-		return memberName + " È¸¿ø´ÔÀÇ ¾ÆÀÌµğ´Â " + memberId + "ÀÔ´Ï´Ù";
+	public String toString() { // toString ë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë“œ
+		return memberName + " íšŒì›ë‹˜ì˜ ì•„ì´ë””ëŠ” " + memberId + "ì…ë‹ˆë‹¤";
 	}
 	
 }
