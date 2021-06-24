@@ -8,3 +8,11 @@
 
 중간연산의 예: filter(), map(), sorted() -> 중간연산은 여러번 사용가능
 최종연산의 예: forEach(), count(), sum()
+
+람다식이란?
+- 객체없이 메서드가 호출될 수 있음
+- 기존 메서드에 비해 간소화가 장점
+- 인터페이스 @FunctionalInterface선언 후 사용(한가지 메서드만 사용 가능) 
+ 
+사용 예)
+String str = s -> System.out,println(s);
